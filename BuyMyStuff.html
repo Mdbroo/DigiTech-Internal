@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <title>Buy My Stuff</title>
+    <!-- The blurry image title -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body, html {
+              height: 100%;
+              margin: 0;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+
+            * {
+              box-sizing: border-box;
+            }
+
+            .bg-image {
+              /* The image used */
+              background-image: url("purplebridge.JPG");
+
+              /* Add the blur effect */
+              filter: blur(8px);
+              -webkit-filter: blur(8px);
+
+              /* Full height */
+              height: 100%; 
+
+              /* Center and scale the image nicely */
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+
+            /* Position text in the middle of the page/image */
+            .bg-text {
+              background-color: rgb(0,0,0); /* Fallback color */
+              background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+              color: white;
+              font-weight: bold;
+              border: 3px solid #f1f1f1;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              z-index: 2;
+              width: 80%;
+              padding: 20px;
+              text-align: center;
+            }
+        </style>
+    </head>
+    
+        <body>
+
+        <div class="bg-image"></div>
+
+        <div class="bg-text">
+          <h2>In need of various assorted items?</h2>
+          <h1 style="font-size:50px">Buy My Stuff LTD</h1>
+          <p>We are selling various assorted items.</p>
+        </div>
+        </body>
+    
+    <head>
+        
+<!-- The Nav Bar -->        
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div id="navbar">
+  <a href="/Internal/ProperWebsite/BuyMyStuff.html">Home</a>
+  <a href="/Internal/ProperWebsite/Staff.html">Our Staff</a>
+  <a href="/Internal/ProperWebsite/Confirmed.html">Contact Us</a>
+</div>
+
+
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+
+</body>
+    
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+    </style>
+    </head>
+    <body>
+
+ <!-- Description -->    
+    <h3 id="mainheader">At Buy My Stuff LTD we strive towards providing quality products with quality service!</h3>
+    <p>Our staff work endlessly to deliver a memorable experience when shopping with Buy My Stuff LTD. Our products are handpicked and fresh. Extra juicy.</p>
+    <br>
+
+<!-- The products -->     
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="boot.jpg" alt="Connor.jpg" style="width:100%">
+          <div class="container">
+            <h2>Boot!</h2>
+            <p class="title"><a href="https://www.epicgames.com/fortnite">Free with the battle pass!!</a></p>
+            <p>Boot!</p>
+            <p>Shipping 2-3 work days.</p>
+            <p><a href="https://i1.adis.ws/i/boohooamplience/dzz47495_black_xl/womens-black-hannah-lace-up-hiker-platform-boot?$product_image_main$"><button class="button">Boot!!!</button></a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="bottle.jpg" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>A Bottle!</h2>
+            <p class="title">$9.99</p>
+            <p>It's a bottle!</p>
+            <p>Shipping 1 work day.</p>
+            <p><a href="/Internal/ProperWebsite/Confirmed.html"><button class="button">Buy Now!!!</button></a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="ear.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Ear!</h2>
+            <p class="title">$29.99</p>
+            <p>This is an ear!</p>
+            <p>Out of Stock.</p>
+            <p><button class="button">Out of stock</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="Glasses.jpg" alt="Jane" style="width:100%">
+          <div class="container">
+            <h2>A pair of glasses!</h2>
+            <p class="title">$24.99</p>
+            <p>Connor found these!</p>
+            <p>Shipping 2-3 work days.</p>
+            <p><a href="/Internal/ProperWebsite/Confirmed.html"><button class="button">Buy Now!!!</button></a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="lips.jpg" alt="Mike" style="width:100%">
+          <div class="container">
+            <h2>Lip Balm!</h2>
+            <p class="title">$12.99</p>
+            <p>Keep those L I P S squeaky clean!</p>
+            <p>Shipping 1 work day.</p>
+              <p><a href="/Internal/ProperWebsite/Confirmed.html"><button class="button">Buy Now!!!</button></a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="carrot.jpg" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Carrot!</h2>
+            <p class="title">$29.99</p>
+            <p>Fresh and Nutritious</p>
+            <p>Shipping 5-7 work days.</p>
+              <p><a href="/Internal/ProperWebsite/Confirmed.html"><button class="button">Buy Now!!!</button></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    </body>
+</html>
